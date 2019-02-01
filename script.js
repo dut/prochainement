@@ -1,3 +1,6 @@
+// Réalisé par Nicola Dutartre, 2019 (https://github.com/dutartre)
+// Si vous souhaitez reprendre le code, merci de me créditer.
+
 window.onload=function() {
   horloge('div_horloge');
 };

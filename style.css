@@ -1,38 +1,39 @@
 /* Réalisé par Nicola Dutartre, 2019 (https://github.com/dutartre)
  * Si vous souhaitez reprendre le code, merci de me créditer.
  */
- 
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: #B3E5FC;
-  color : #292f33;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #B3E5FC;
+	color: #292f33;
 }
 
 div {
-  transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 p {
-  margin: 0px;
+	margin: 0px;
 }
+
 a {
-  text-decoration:none;
+	text-decoration: none;
 }
 
 .haut {
-  width: 70%;
-
-  font-size: 28px;
-  font-weight: 700;
-  background-color: #fff;
-  color: #292f33;
-  padding:0 20px 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-  /*margin-top: auto;
+	width: 70%;
+	font-size: 28px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #292f33;
+	padding: 0 20px 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: auto;
   margin-bottom: auto;*/
-  border-radius: 10px;
+	border-radius: 10px;
 }
+
 
 /*
 .haut #date {
@@ -45,178 +46,180 @@ a {
   margin-right: 400px;
 }
 */
+
 .headerpage {
-
-    width: 70%;
-    font-size: 28px;
-    font-weight: 700;
-    background-color: #fff;
-    color: #292f33;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    /*margin-bottom: auto;*/
-    border-radius: 10px;
-
+	width: 70%;
+	font-size: 28px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #292f33;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	/*margin-bottom: auto;*/
+	border-radius: 10px;
 }
 
 h1 {
-  margin: 0px;
-  color: #292f33;
+	margin: 0px;
+	color: #292f33;
 }
 
 h4 {
-  margin-bottom: 0px;
-  color: #292f33;
-}
-.container {
-  background-color: #FFF;
-  width: 70%;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  display: block;
+	margin-bottom: 0px;
+	color: #292f33;
 }
 
-@media screen and (min-width: 1024px;) {
-  .container {
-    width: 99%;
-  }
+.container {
+	background-color: #FFF;
+	width: 70%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	display: block;
+}
+
+@media screen and (min-width: 1024px;
+) {
+	.container {
+		width: 99%;
+	}
 }
 
 .box {
-  padding: 30px 50px;
+	padding: 30px 50px;
 }
 
 .infobarre {
-  padding-top: 30px;
-  padding-bottom: 5px;
-
+	padding-top: 30px;
+	padding-bottom: 5px;
 }
-.titrebarre {
-  font-size: 25px;
 
+.titrebarre {
+	font-size: 25px;
 }
 
 footer {
-  width: 70%;
-  font-size: 28px;
-  font-weight: 700;
-  background-color: #fff;
-  color: #292f33;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  /*margin-bottom: auto;*/
-  border-radius: 10px;
+	width: 70%;
+	font-size: 28px;
+	font-weight: 700;
+	background-color: #fff;
+	color: #292f33;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	/*margin-bottom: auto;*/
+	border-radius: 10px;
 }
 
 footer .github {
-  background-color: #fff;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    color: #292f33;
-    border-radius: 5px;
-    font-weight: 700;
+	background-color: #fff;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #292f33;
+	border-radius: 5px;
+	font-weight: 700;
 }
+
 #barre {
-  width: 100%;
-  background-color: #E0E0E0;
-  /*border: solid rgb(189, 195, 199);*/
-  border-radius: 10px;
+	width: 100%;
+	background-color: #E0E0E0;
+	/*border: solid rgb(189, 195, 199);*/
+	border-radius: 10px;
 }
 
 .Restant {
-  margin-left: 5px;
+	margin-left: 5px;
 }
+
 #ProchaineMinute {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchaineHeure {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainJour {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainMois {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchaineAnnee {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchaineStVal {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainAnniversaire {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainHalloween {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainNoel {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchaineDecennie {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainSiecle {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 #ProchainMillenaire {
-  width: 0%;
-  height: 35px;
-  background-color: #03A9F4;
-  border-radius: 10px;
+	width: 0%;
+	height: 35px;
+	background-color: #03A9F4;
+	border-radius: 10px;
 }
 
 .btn {

@@ -87,51 +87,51 @@ function horloge(el) {
 		BarreAnnee.style.width = nbjourannee * 0.27397260274 + '%'; // 1a = 365j, 100/365 = ~0.27
 		document.getElementById("JoursRestantsAnnee").innerHTML = 365 - nbjourannee;
 
-		//Prochaine Saint Valentin
-		var StValentin = new Date();
-		StValentin.setDate(14);
-		StValentin.setMonth(0);
-		var nbMillisecSV = date.getTime() - StValentin.getTime();
-		var nbjourStValentin = Math.ceil(((((nbMillisecSV / 1000) / 60) / 60) / 24));
-		//document.getElementById("stval").innerHTML = StValentin;
-
-		var BarreStValentin = document.getElementById("ProchaineStVal");
-		BarreStValentin.style.width = (365 - (nbjourannee - nbjourStValentin)) * 0.27397260274 + '%';
-		document.getElementById("JoursRestantsStVal").innerHTML = nbjourannee - nbjourStValentin;
-
-		//Mon Anniversaire
-		var Anniversaire = new Date();
-		Anniversaire.setDate(31);
-		Anniversaire.setMonth(6);
-		var nbMillisecAnniv = date.getTime() - Anniversaire.getTime();
-		var nbjourAnniversaire = Math.ceil(((((nbMillisecAnniv / 1000) / 60) / 60) / 24));
-		//document.getElementById("anni").innerHTML = Anniversaire;
-
-		var BarreAnniversaire = document.getElementById("ProchainAnniversaire");
-		BarreAnniversaire.style.width = (365 - (nbjourannee - nbjourAnniversaire)) * 0.27397260274 + '%';
-		document.getElementById("JoursRestantsAnniversaire").innerHTML = nbjourannee - nbjourAnniversaire;
-
-		//Prochain ProchainHalloween
-		var Halloween = new Date();
-		Halloween.setDate(31);
-		Halloween.setMonth(9);
-		var nbMillisecHalloween = date.getTime() - Halloween.getTime();
-		var nbjourHalloween = Math.ceil(((((nbMillisecHalloween / 1000) / 60) / 60) / 24));
-
-		var BarreHalloween = document.getElementById("ProchainHalloween");
-		BarreHalloween.style.width = (365 - (nbjourannee - nbjourHalloween)) * 0.27397260274 + '%';
-		document.getElementById("JoursRestantsHalloween").innerHTML = nbjourannee - nbjourHalloween;
-
-		//Prochain Noël
-		var Noel = new Date();
-		Noel.setDate(25);
-		Noel.setMonth(10);
-		var nbMillisecNoel = date.getTime() - Noel.getTime();
-		var nbjourNoel = Math.ceil(((((nbMillisecNoel / 1000) / 60) / 60) / 24));
-
-		var BarreNoel = document.getElementById("ProchainNoel");
-		BarreNoel.style.width = (365 - (nbjourannee - nbjourNoel)) * 0.27397260274 + '%';
-		document.getElementById("JoursRestantsNoel").innerHTML = nbjourannee - nbjourNoel;
+//		//Prochaine Saint Valentin
+//		var StValentin = new Date();
+//		StValentin.setDate(14);
+//		StValentin.setMonth(0);
+//		var nbMillisecSV = date.getTime() - StValentin.getTime();
+//		var nbjourStValentin = Math.ceil(((((nbMillisecSV / 1000) / 60) / 60) / 24)+1);
+//		//document.getElementById("stval").innerHTML = StValentin;
+//
+//		var BarreStValentin = document.getElementById("ProchaineStVal");
+//		BarreStValentin.style.width = (365 - (nbjourannee - nbjourStValentin)) * 0.27397260274 + '%';
+//		document.getElementById("JoursRestantsStVal").innerHTML = nbjourannee - nbjourStValentin;
+//
+//		//Mon Anniversaire
+//		var Anniversaire = new Date();
+//		Anniversaire.setDate(31);
+//		Anniversaire.setMonth(6);
+//		var nbMillisecAnniv = date.getTime() - Anniversaire.getTime();
+//		var nbjourAnniversaire = Math.ceil(((((nbMillisecAnniv / 1000) / 60) / 60) / 24));
+//		//document.getElementById("anni").innerHTML = Anniversaire;
+//
+//		var BarreAnniversaire = document.getElementById("ProchainAnniversaire");
+//		BarreAnniversaire.style.width = (365 - (nbjourannee - nbjourAnniversaire)) * 0.27397260274 + '%';
+//		document.getElementById("JoursRestantsAnniversaire").innerHTML = nbjourannee - nbjourAnniversaire;
+//
+//		//Prochain ProchainHalloween
+//		var Halloween = new Date();
+//		Halloween.setDate(31);
+//		Halloween.setMonth(9);
+//		var nbMillisecHalloween = date.getTime() - Halloween.getTime();
+//		var nbjourHalloween = Math.ceil(((((nbMillisecHalloween / 1000) / 60) / 60) / 24));
+//
+//		var BarreHalloween = document.getElementById("ProchainHalloween");
+//		BarreHalloween.style.width = (365 - (nbjourannee - nbjourHalloween)) * 0.27397260274 + '%';
+//		document.getElementById("JoursRestantsHalloween").innerHTML = nbjourannee - nbjourHalloween;
+//
+//		//Prochain Noël
+//		var Noel = new Date();
+//		Noel.setDate(25);
+//		Noel.setMonth(10);
+//		var nbMillisecNoel = date.getTime() - Noel.getTime();
+//		var nbjourNoel = Math.ceil(((((nbMillisecNoel / 1000) / 60) / 60) / 24));
+//
+//		var BarreNoel = document.getElementById("ProchainNoel");
+//		BarreNoel.style.width = (365 - (nbjourannee - nbjourNoel)) * 0.27397260274 + '%';
+//		document.getElementById("JoursRestantsNoel").innerHTML = nbjourannee - nbjourNoel;
 
 		//Prochaine décennie
 		arrondirannee = Math.ceil((annee + 0.1) / 10); //Arrondi la decennie de l'année au dessus (ex: 201X => 202), le "+0.1" est pour ne pas avoir de nombre rond et d'être sûr de toujours arrondir au dessus
